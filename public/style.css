@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin:0px;
+    font-family:  'Poppins', cursive;
+    font-weight:"bold"
+}
+body{
+    background-color:#f7f7f7;
+}
+.image-overlay-0{
+    background-color:rgba(173, 36, 36, 0.5)
+}
+
+.image-overlay-1{
+    background-color:rgba(174, 0, 255, 0.705);
+}
+
+.image-overlay-2{
+    background-color:rgba(0, 219, 73, 0.5)
+}
