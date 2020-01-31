@@ -6,6 +6,7 @@ const style = {
   //border: '1px dashed gray',
   //backgroundColor: 'white',
   padding: '0.5rem 0.5rem',
+  transform: 'scale(1.25)',
   cursor: 'move',
 }
 const Box = ({ id, left, top, children, isCollided, value, values,onClick,image}) => {
@@ -35,7 +36,7 @@ const Box = ({ id, left, top, children, isCollided, value, values,onClick,image}
   return (
     <div id={id} ref={drag} onClick={onClick} style={{ ...style, left, top,}}>
       <div id={id} className={getColor()}>
-        <img id={id} src={image}></img>
+        <img  id={id} src={image}></img>
       </div>
       
     </div>

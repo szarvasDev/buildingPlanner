@@ -34,6 +34,7 @@ import imgSA from './Buildings/SA.png';
 import imgRE from './Buildings/RE.png';
 import imgPO from './Buildings/PO.png';
 import imgNSA2 from './Buildings/NSA2.png';
+import imgMF from './Buildings/MF.png'
 
 const styles = {
   width: "90%",
@@ -78,6 +79,8 @@ const Container = ({ }) => {
     "RE": { top: 750, left: 0, title: 'RE', isCollided: false, values: [30, 40, 50], value: 0, image: imgRE },
     "PO": { top: 750, left: 80, title: 'PO', isCollided: false, values: [30, 40, 50], value: 0, image: imgPO },
     "NSA2": { top: 800, left: 0, title: 'NSA2', isCollided: false, values: [30, 40, 50], value: 0, image: imgNSA2 },
+    "MF": { top: 810, left: 80, title: 'MF', isCollided: false, values: [30, 40, 50], value: 0, image: imgMF },
+
 
   })
   const [, drop] = useDrop({
